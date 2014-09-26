@@ -21,7 +21,7 @@ $(document).ready(function() {
     $('.race').slideDown();
   });
 
-  $('.rabbit,.turtle,.wolf').click(function() {
+  $('button').click(function() {
   var rabbit = new Animal ("Rocky the Bunny", 8, 4);
   var turtle = new Animal ("Myrtle the Turtle", 3, 7);
   var wolf = new Animal ("Big Bad Wolf", 6, 8);
