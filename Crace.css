@@ -31,6 +31,7 @@ div {
   border-radius: 5px;
   display: inline block;
   background-size: cover;
+  position: relative;
   background-position: center center;
   background-repeat: no-repeat;
   border: 1px solid #ffffff;
