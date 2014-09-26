@@ -1,0 +1,87 @@
+h1 {
+  font-family: Verdana;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 25px;
+  padding-bottom: -20px;
+  color: #FFFFFF;
+}
+
+body {
+  background-image: url(race.jpg);
+  background-size: cover;
+}
+
+h2 {
+  font-family: Verdana;
+  font-weight: bold;
+  text-align: center;
+  font-size: .5;
+  position: top;
+  margin: 10px;
+  padding-bottom: 50px;
+  color: #FFFFFF;  
+}
+
+div {
+  height: 75px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: inline block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid #ffffff;
+  box-shadow: rgba(0,0,0,0.2) 10px 10px;
+  max-width: 100%;
+
+}
+
+.rabbit {
+    background-image: url(rabbit.jpg); 
+}
+
+.turtle {
+    background-image: url(turtle.jpg); 
+}
+
+.wolf {
+    background-image: url(wolf.jpg);   
+}
+
+button {
+  border-radius: 30px;
+  border: 10px solid #FFFFFF;
+  background-opacity: .7;
+  height: 75px;
+  width: 350px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: 5px;
+  margin-left: -100px;  
+  text-align: center;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  max-width: 100%;
+
+}
+
+.race {
+  display: none;
+  font-family: Verdana;
+  text-align: center;
+  list-style-type: none;
+  color: #FFFFFF;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-top: 5px;
+  margin-bottom: auto;
+  max-width: 100%;
+
+}
