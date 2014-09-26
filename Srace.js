@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var meters = 20;
+  var meters = 250;
     function Animal (name, speed, focus) {
       this.name = name;
       this.speed = speed;
@@ -15,14 +15,6 @@ $(document).ready(function() {
           this.position += this.speed;
           }
         }
-      this.progressReport = function () {
-        if (this.position < this.finalPosition) { 
-          return this.name + " is at: " + this.position;
-            }
-        else { 
-          return this.name + " has won!";
-          }  
-        }
       };
 
   $('button').click(function() {
@@ -33,7 +25,7 @@ $(document).ready(function() {
   var rabbit = new Animal ("Rocky the Bunny", 8, 4);
   var turtle = new Animal ("Myrtle the Turtle", 3, 7);
   var wolf = new Animal ("Big Bad Wolf", 6, 8);
-  var meters = 20;
+  var meters = 250;
   var timerId = setInterval (function() {
 
     if (rabbit.position < meters && turtle.position < meters && wolf.position < meters) {
@@ -47,6 +39,6 @@ $(document).ready(function() {
     else {
       clearInterval(timerId);
         }
-    } , 1000);
+    } , 500);
 })
 });
